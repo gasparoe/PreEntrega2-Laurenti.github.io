@@ -249,7 +249,23 @@ body {
     font-size: 20px;
 } */
 
-.contenido_principal {
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+    
+}
+
+.carousel-titulo{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.carousel-texto{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+/* .contenido_principal {
     height: 800px;
     position: relative;
     text-align: center;
@@ -274,7 +290,7 @@ body {
     padding-top: 200px;
     width: 500px;
     color: white;
-}
+} */
 
 .informacion_empresa {
     width: 100%;
