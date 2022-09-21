@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>inicio</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./assets/logoredondo.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/dc3be69b64.js" crossorigin="anonymous"></script>
@@ -14,26 +17,72 @@
 <body>
 
     <header id="header">
-        <ul class="header_informacion">
-            <li>(03401)-420140</li>
-            <li>Lun-Vie 08:00-14:00hs</li>
-            <li>medelinox@medelinox.com.ar</li>
-        </ul>
-        <nav class="header_menu_navegacion">
-            <ul>
-                <li><a href="./index.html"> <img src="/assets/logo_medelinox.png" alt=""></a></li>
-                <li><a href="./pages/empresa.html">Empresa</a></li>
-                <li><a href="./pages/productos.html">Productos</a>
-                    <ul>
-                        <li><a href=""></a>CERVEZA</li>
-                        <li><a href=""></a>CHOCOLATE</li>
-                        <li><a href=""></a>HELADERIA</li>
-                        <li><a href=""></a>DULCE DE LECHE</li>
+        <div class="container text-center pt-3 pb-1 header_informacion">
+            <div class="row">
+                <div class="col">
+                    <p>(03401)-420140</p>
+                </div>
+                <div class="col">
+                    <p>Lun-Vie 08:00-14:00hs</p>
+                </div>
+                <div class="col">
+                    <p>medelinox@medelinox.com.ar</p>
+                </div>
+            </div>
+
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark header_menu_navegacion">
+            <div class="container-fluid">
+                <a class="navbar-brand p-2" href="./index.html"><img class="logo_menu" src="./assets/logo_medelinox.png"
+                        alt="logo_menu"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/empresa.html">Empresa</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./pages/productos.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Cerveza</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Chocolate</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Dulce de Leche</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Chocolate</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/ingenieria.html">Ingenieria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
                     </ul>
-                </li>
-                <li><a href="./pages/ingenieria.html">Ingenieria</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
+                    <button type="button" class="btn botones">ACCESO CLIENTES</button>
+                    <!-- <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Buscar</button>
+                    </form> -->
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -69,14 +118,14 @@
                 <a href="">Enviar a Soporte</a>
             </div>
         </div>
-    
+
     </section>
 
     <section id="section_2">
         <div class="logos_clientes">
             <img src="./assets/lgos-faja-medel-1.jpeg" alt="">
         </div>
-    
+
     </section>
 
 
@@ -86,13 +135,18 @@
                 <a href="https://instagram.com/medelinox"><i class="fa-brands fa-square-instagram fa-2x"></i></a>
                 <a href="https://facebook.com/medelinox"><i class="fa-brands fa-square-facebook fa-2x"></i></a>
                 <a href="https://linkedin.com/medelinox"><i class="fa-brands fa-linkedin fa-2x"></i></a>
-                
+
             </div>
             <h2>2022 by Medelinox S.A.</h2>
             <p>Todos los derechos reservados ©</p>
         </div>
     </footer>
 
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
