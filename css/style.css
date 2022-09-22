@@ -156,10 +156,7 @@ body {
 .header_informacion {
     display: none;
     font-size: 20px;
-    /* padding-top: 15px; */
     font-family: sans-serif;
-    /* height: 45px; */
-    /* text-align: center; */
     background-color: black;
     color: grey;
     list-style: none;
@@ -172,10 +169,6 @@ body {
     }
 }
 
-/* .header_informacion li {
-    margin-inline: 150px;
-    display: inline;
-} */
 
 .logo_menu {
     height: 30px;
@@ -232,22 +225,12 @@ body {
     width: 100%;
     color: white;
     z-index: 99999;
-    /* font-weight: bold; */
     animation-duration: 2s;
 }
 
 .logos_clientes img {
     width: 100%;
 }
-
-/* #section_1 h2 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 40px;
-    font-family: sans-serif;
-    text-align: center;
-    color: orangered;
-} */
 
 #section_1 h5 {
     font-family: sans-serif;
@@ -263,21 +246,6 @@ body {
 #section_1 img {
     height: 300px;
     object-fit: cover;
-}
-
-/* 
-#section_1 .col h2 {
-    color: white;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-#section_1 .col p {
-    min-height: 50px;
-    font-size: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 10px;
-    color: white;
 }
 
 #section_1 .col a {
@@ -329,10 +297,10 @@ body {
 
 
 
+
 /* PAGE EMPRESA */
 
 #main_empresa {
-    /* padding-top: 50px; */
     background-color: white;
     padding-bottom: 50px;
 }
@@ -362,13 +330,12 @@ body {
     }
 }
 
-
 #main_empresa iframe {
     width: 80%;
     height: 300px;
-    padding-top: 50px;
     margin: 0 auto;
     display: block;
+    border-radius: 20px;
 }
 
 @media (min-width: 992px) {
@@ -377,7 +344,6 @@ body {
         height: 400px;
     }
 }
-
 
 #section1_empresa h2 {
     color: white;
@@ -400,6 +366,8 @@ body {
 #section1_empresa div img {
     height: 200px;
 }
+
+
 
 
 
@@ -434,17 +402,13 @@ body {
 }
 
 #main_productos img {
-    /* opacity: 0.4; */
     width: 100%;
     height: 100%;
-    /* height: 700px; */
-    /* object-fit: cover; */
 }
 
 #section1_productos {
     background-color: white;
 }
-
 
 #section1_productos h2 {
     padding-top: 10px;
@@ -475,10 +439,12 @@ body {
 }
 
 
+
+
+
 /* PAGE INGENIERIA */
 
 #main_ingenieria {
-    /* padding-top: 50px; */
     background-color: white;
 }
 
@@ -503,7 +469,6 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    /* border: solid 2px orangered; */
     border-radius: 10px;
     align-items: center;
 }
@@ -515,8 +480,6 @@ body {
 .boton-personalizado i{
     color: red;
 }
-
-
 
 #main_ingenieria h1 {
     padding-top: 10px;
@@ -592,35 +555,16 @@ body {
     padding-top: 20px;
 }
 
-
-
 #section2_ingenieria {
-    /* width: 100%; */
     text-align: center;
-    /* content: ""; */
-    /* display: table; */
     background-color: white;
-    /* align-items: center; */
 }
-
-
-/* .column-ingenieria {
-    height: 400px;
-    text-align: center;
-    float: left;
-    width: 25%;
-} */
 
 #section2_ingenieria .naranja {
     background-color: orangered;
 }
 
-
-
-
-
 #section2_ingenieria h2 {
-    /* height: 80px; */
     padding-top: 10px;
     color: orangered;
     font-size: 35px;
@@ -639,6 +583,9 @@ body {
     padding: 20px;
     color: black;
 }
+
+
+
 
 
 
@@ -661,67 +608,7 @@ body {
     animation-duration: 2s;
 }
 
-/* #main_contacto p {
-    font-family: sans-serif;
-    color: black;
-    text-align: justify;
-    font-size: 20px;
-    padding: 10px 200px;
-    line-height: 30px;
-} */
-/* 
-#main_contacto form{
-    margin: 0 auto;
-    width: max-content;
-} */
-
- /* #main_contacto .formulario {
-    text-align: end;
-    padding: 10px 10px 10px 10px; 
-    font-family: sans-serif; 
-    font-size: 20px; 
-} */
-
-
-/* 
-#main_contacto .formulario input{
-    text-align: center;
-    height: 40px;
-    width: 300px;
-    border-radius: 8px;
-} */
-
-/* 
-#main_contacto .formulario input:hover{
-    border: 2px solid orangered;
-} */
-
-/* #main_contacto .checkbox{
-    padding-top: 10px;
-    text-align: center;
-    font-family: sans-serif;
-} */
-
-/* #main_contacto .botones{
-    text-align: center;
-} */
-
-/* #main_contacto .botones input{
-    background-color: orangered;
-    margin: 10px 10px;
-    padding: 10px 10px;
-    border: none;
-    font-size: 30px;
-    color: white;
-    border-radius: 8px;
-} */
-
-/* #section1_contacto {
-text-align: center;
-} */
-
 #section1_contacto h2 {
-    /* padding-top: 20px; */
     padding-bottom: 20px;
     font-size: 40px;
     font-family: sans-serif;
