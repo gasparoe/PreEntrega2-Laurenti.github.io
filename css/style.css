@@ -233,6 +233,7 @@ body {
     color: white;
     z-index: 99999;
     font-weight: bold;
+    animation-duration: 2s;
 }
 
 .logos_clientes img {
@@ -306,7 +307,7 @@ body {
 /* PAGE EMPRESA */
 
 #main_empresa {
-    padding-top: 50px;
+    /* padding-top: 50px; */
     background-color: white;
     padding-bottom: 50px;
 }
@@ -318,6 +319,7 @@ body {
     font-family: sans-serif;
     text-align: center;
     color: orangered;
+    animation-duration: 2s;
 }
 
 #main_empresa p {
@@ -351,15 +353,6 @@ body {
     }
 }
 
-/* #section1_empresa {
-    width: 100%;
-    text-align: center;
-    content: "";
-    display: table;
-    background-color: white;
-    align-items: center;
-    background-color: black;
-} */
 
 #section1_empresa h2 {
     color: white;
@@ -390,7 +383,7 @@ body {
 /* PAGE PRODUCTOS */
 
 #main_productos {
-    padding-top: 50px;
+    padding-top: 10px;
     background-color: white;
     padding-bottom: 50px;
 
@@ -398,11 +391,12 @@ body {
 
 #main_productos h1 {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     font-size: 40px;
     font-family: sans-serif;
     text-align: center;
     color: orangered;
+    animation-duration: 2s;
 }
 
 #main_productos p {
@@ -419,26 +413,15 @@ body {
     width: 100%;
     height: 100%;
     /* height: 700px; */
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 #section1_productos {
-    width: 100%;
-    text-align: center;
-    content: "";
-    display: table;
     background-color: white;
-    align-items: center;
 }
 
-.column-productos {
-    padding-bottom: 30px;
-    text-align: center;
-    float: left;
-    width: 25%;
-}
 
-.column-productos h2 {
+#section1_productos h2 {
     padding-top: 10px;
     color: orangered;
     font-size: 35px;
@@ -446,7 +429,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.column-productos p {
+#section1_productos p {
     text-align: justify;
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -454,12 +437,16 @@ body {
     color: black;
 }
 
-.column-productos a {
+#section1_productos a {
     padding-bottom: 10px;
     font-size: 15px;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: orangered;
+}
+
+#section1_productos img {
+    height: 250px;
 }
 
 
